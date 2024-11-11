@@ -13,3 +13,39 @@ body {
     font-size: 16px;
     line-height: 1.3px;
 }
+
+a:link,
+a:visited,
+a:hover {
+    text-decoration: none;
+    color: #5D6063;
+}
+
+.global-header {
+    text-align: center;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+
+    width: 80%;
+    margin: 40px auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.global-header h1 {
+    font-size: 30px;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+ .nav-links li {
+     display: inline-block;
+     font-family: "Helvetica", "Arial", sans-serif;
+     font-size: 15px;
+     color: #5D6063.;
+     
+     padding: 15px;
+     margin-top: 30px;
+ }
